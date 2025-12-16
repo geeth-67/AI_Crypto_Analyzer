@@ -8,8 +8,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from starlette import status
 from starlette.exceptions import HTTPException
-
 from models import CryptoAnalysisResponse, CryptoRequest
+
 
 load_dotenv()
 
